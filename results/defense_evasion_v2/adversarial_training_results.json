@@ -1,0 +1,56 @@
+{
+  "Wong2020Fast": {
+    "clean_accuracy": 87.0,
+    "transfer_PGD-20": {
+      "asr": 1.6091954022988506,
+      "lpips": 0.0019482356728985906
+    },
+    "transfer_AIDE-Base": {
+      "asr": 1.1494252873563218,
+      "lpips": 0.0018156750593334436
+    },
+    "transfer_Dynamic-Direct": {
+      "asr": 1.1494252873563218,
+      "lpips": 0.0010904172668233514
+    },
+    "whitebox_PGD-20": {
+      "asr": 46.206896551724135,
+      "lpips": 0.007720148656517267
+    },
+    "whitebox_AIDE-Base": {
+      "asr": 44.59770114942529,
+      "lpips": 0.007318994961678982
+    },
+    "whitebox_Dynamic-Direct": {
+      "asr": 23.678160919540232,
+      "lpips": 0.003845812287181616
+    }
+  },
+  "Engstrom2019Robustness": {
+    "clean_accuracy": 91.4,
+    "transfer_PGD-20": {
+      "asr": 0.87527352297593,
+      "lpips": 0.0019363692263141274
+    },
+    "transfer_AIDE-Base": {
+      "asr": 1.0940919037199124,
+      "lpips": 0.001770285307429731
+    },
+    "transfer_Dynamic-Direct": {
+      "asr": 0.437636761487965,
+      "lpips": 0.0010384306078776717
+    },
+    "whitebox_PGD-20": {
+      "asr": 38.7308533916849,
+      "lpips": 0.006944298278540373
+    },
+    "whitebox_AIDE-Base": {
+      "asr": 37.199124726477024,
+      "lpips": 0.006485964171588421
+    },
+    "whitebox_Dynamic-Direct": {
+      "asr": 24.945295404814004,
+      "lpips": 0.004000920336693525
+    }
+  }
+}

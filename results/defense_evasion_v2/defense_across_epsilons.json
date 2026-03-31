@@ -1,0 +1,44 @@
+{
+  "eps_4": {
+    "PGD-20": {
+      "detection_rate": 61.60000562667847,
+      "cam_similarity": 0.3802634952970458
+    },
+    "AIDE-Base": {
+      "detection_rate": 54.80000376701355,
+      "cam_similarity": 0.3817425842862576
+    },
+    "Dynamic-Direct": {
+      "detection_rate": 51.20000243186951,
+      "cam_similarity": 0.451186129438261
+    }
+  },
+  "eps_8": {
+    "PGD-20": {
+      "detection_rate": 67.80000329017639,
+      "cam_similarity": 0.36906364104596345
+    },
+    "AIDE-Base": {
+      "detection_rate": 53.00000309944153,
+      "cam_similarity": 0.3860466372436629
+    },
+    "Dynamic-Direct": {
+      "detection_rate": 46.800002455711365,
+      "cam_similarity": 0.3918071274618761
+    }
+  },
+  "eps_16": {
+    "PGD-20": {
+      "detection_rate": 56.60000443458557,
+      "cam_similarity": 0.3975888571003452
+    },
+    "AIDE-Base": {
+      "detection_rate": 57.40000009536743,
+      "cam_similarity": 0.4044891793589788
+    },
+    "Dynamic-Direct": {
+      "detection_rate": 35.600000619888306,
+      "cam_similarity": 0.34723876297245554
+    }
+  }
+}

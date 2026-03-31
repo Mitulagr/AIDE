@@ -301,7 +301,7 @@ def train_cifar_model(
         The trained model (in eval mode) and the final test accuracy.
     """
     dataset_name = dataset_name.lower().strip()
-    data_root = "/home/mac/mitrix69/research/AIDE/data"
+    data_root = "/home/mac/mitulagr/research/AIDE/data"
     os.makedirs(data_root, exist_ok=True)
 
     dataset_cls = datasets.CIFAR10 if dataset_name == "cifar10" else datasets.CIFAR100
@@ -383,7 +383,7 @@ def load_or_train_model(
     name: str,
     dataset: str,
     device: str,
-    models_dir: str = "/home/mac/mitrix69/research/AIDE/results/models",
+    models_dir: str = "/home/mac/mitulagr/research/AIDE/results/models",
 ) -> nn.Module:
     """Load a saved CIFAR-adapted model if it exists; otherwise train and save.
 
@@ -416,7 +416,7 @@ def load_or_train_model(
 
     # Also check legacy location (results/ root)
     legacy_path = os.path.join(
-        "/home/mac/mitrix69/research/AIDE/results", filename
+        "/home/mac/mitulagr/research/AIDE/results", filename
     )
 
     model = get_model(name, dataset=dataset, device=device, pretrained=True)

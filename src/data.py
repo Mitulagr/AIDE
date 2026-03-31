@@ -48,7 +48,7 @@ CIFAR100_CLASSES = [
 # Default data root
 # ---------------------------------------------------------------------------
 
-_DEFAULT_DATA_ROOT = "/home/mac/mitrix69/research/AIDE/data"
+_DEFAULT_DATA_ROOT = "/home/mac/mitulagr/research/AIDE/data"
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,56 @@
+{
+  "sigma_0.05": {
+    "clean_acc_smoothed": 86.2,
+    "PGD-20": {
+      "asr_raw": 99.4,
+      "asr_after_smoothing": 74.6,
+      "asr_drop": 24.80000000000001
+    },
+    "AIDE-Base": {
+      "asr_raw": 99.8,
+      "asr_after_smoothing": 67.2,
+      "asr_drop": 32.599999999999994
+    },
+    "Dynamic-Direct": {
+      "asr_raw": 86.4,
+      "asr_after_smoothing": 46.6,
+      "asr_drop": 39.800000000000004
+    }
+  },
+  "sigma_0.12": {
+    "clean_acc_smoothed": 31.0,
+    "PGD-20": {
+      "asr_raw": 99.4,
+      "asr_after_smoothing": 74.4,
+      "asr_drop": 25.0
+    },
+    "AIDE-Base": {
+      "asr_raw": 99.8,
+      "asr_after_smoothing": 75.0,
+      "asr_drop": 24.799999999999997
+    },
+    "Dynamic-Direct": {
+      "asr_raw": 86.4,
+      "asr_after_smoothing": 72.6,
+      "asr_drop": 13.800000000000011
+    }
+  },
+  "sigma_0.25": {
+    "clean_acc_smoothed": 11.799999999999999,
+    "PGD-20": {
+      "asr_raw": 99.4,
+      "asr_after_smoothing": 88.4,
+      "asr_drop": 11.0
+    },
+    "AIDE-Base": {
+      "asr_raw": 99.8,
+      "asr_after_smoothing": 88.6,
+      "asr_drop": 11.200000000000003
+    },
+    "Dynamic-Direct": {
+      "asr_raw": 86.4,
+      "asr_after_smoothing": 88.2,
+      "asr_drop": -1.7999999999999972
+    }
+  }
+}

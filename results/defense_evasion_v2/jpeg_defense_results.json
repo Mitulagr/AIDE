@@ -1,0 +1,74 @@
+{
+  "quality_25": {
+    "clean_acc_after_jpeg": 99.8,
+    "PGD-20": {
+      "asr_raw": 99.6,
+      "asr_after_jpeg": 99.6,
+      "asr_drop": 0.0
+    },
+    "AIDE-Base": {
+      "asr_raw": 99.8,
+      "asr_after_jpeg": 99.8,
+      "asr_drop": 0.0
+    },
+    "Dynamic-Direct": {
+      "asr_raw": 87.0,
+      "asr_after_jpeg": 86.8,
+      "asr_drop": 0.20000000000000284
+    }
+  },
+  "quality_50": {
+    "clean_acc_after_jpeg": 100.0,
+    "PGD-20": {
+      "asr_raw": 99.6,
+      "asr_after_jpeg": 99.6,
+      "asr_drop": 0.0
+    },
+    "AIDE-Base": {
+      "asr_raw": 99.8,
+      "asr_after_jpeg": 99.8,
+      "asr_drop": 0.0
+    },
+    "Dynamic-Direct": {
+      "asr_raw": 87.0,
+      "asr_after_jpeg": 86.8,
+      "asr_drop": 0.20000000000000284
+    }
+  },
+  "quality_75": {
+    "clean_acc_after_jpeg": 100.0,
+    "PGD-20": {
+      "asr_raw": 99.6,
+      "asr_after_jpeg": 99.6,
+      "asr_drop": 0.0
+    },
+    "AIDE-Base": {
+      "asr_raw": 99.8,
+      "asr_after_jpeg": 99.8,
+      "asr_drop": 0.0
+    },
+    "Dynamic-Direct": {
+      "asr_raw": 87.0,
+      "asr_after_jpeg": 87.0,
+      "asr_drop": 0.0
+    }
+  },
+  "quality_90": {
+    "clean_acc_after_jpeg": 100.0,
+    "PGD-20": {
+      "asr_raw": 99.6,
+      "asr_after_jpeg": 99.6,
+      "asr_drop": 0.0
+    },
+    "AIDE-Base": {
+      "asr_raw": 99.8,
+      "asr_after_jpeg": 99.8,
+      "asr_drop": 0.0
+    },
+    "Dynamic-Direct": {
+      "asr_raw": 87.0,
+      "asr_after_jpeg": 87.0,
+      "asr_drop": 0.0
+    }
+  }
+}

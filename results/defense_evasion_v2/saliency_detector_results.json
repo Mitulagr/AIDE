@@ -1,0 +1,118 @@
+{
+  "cam_analysis": {
+    "PGD-20": {
+      "cam_similarity_mean": 0.38492009345418776,
+      "cam_similarity_std": 0.20228933869555416,
+      "cam_l2_diff_mean": 9.387613642692566,
+      "cam_entropy_clean_mean": 5.777740043163299,
+      "cam_entropy_adv_mean": 5.99930122756958,
+      "cam_entropy_shift": 0.2215611844062808
+    },
+    "AIDE-Base": {
+      "cam_similarity_mean": 0.39609723034035416,
+      "cam_similarity_std": 0.20960393929645416,
+      "cam_l2_diff_mean": 9.259970337867736,
+      "cam_entropy_clean_mean": 5.777740043163299,
+      "cam_entropy_adv_mean": 6.001824028491974,
+      "cam_entropy_shift": 0.2240839853286749
+    },
+    "Dynamic-Direct": {
+      "cam_similarity_mean": 0.3746781557376962,
+      "cam_similarity_std": 0.23690337788345667,
+      "cam_l2_diff_mean": 8.573742617368698,
+      "cam_entropy_clean_mean": 5.777740043163299,
+      "cam_entropy_adv_mean": 5.441833934307098,
+      "cam_entropy_shift": -0.335906108856201
+    },
+    "MI-FGSM-20": {
+      "cam_similarity_mean": 0.39413693058956417,
+      "cam_similarity_std": 0.20856696028956448,
+      "cam_l2_diff_mean": 9.306223369121552,
+      "cam_entropy_clean_mean": 5.777740043163299,
+      "cam_entropy_adv_mean": 6.02819092130661,
+      "cam_entropy_shift": 0.2504508781433108
+    }
+  },
+  "saliency_detector_trained_on_pgd": {
+    "trained_on": "PGD-20",
+    "clean_false_positive_rate": 24.000000953674316,
+    "PGD-20": {
+      "detection_rate": 66.40000343322754,
+      "evasion_rate": 33.59999656677246
+    },
+    "AIDE-Base": {
+      "detection_rate": 51.20000243186951,
+      "evasion_rate": 48.79999756813049
+    },
+    "Dynamic-Direct": {
+      "detection_rate": 38.80000114440918,
+      "evasion_rate": 61.19999885559082
+    },
+    "MI-FGSM-20": {
+      "detection_rate": 54.60000038146973,
+      "evasion_rate": 45.39999961853027
+    }
+  },
+  "saliency_detector_trained_on_dd": {
+    "trained_on": "Dynamic-Direct",
+    "clean_false_positive_rate": 31.400001049041748,
+    "PGD-20": {
+      "detection_rate": 45.20000219345093,
+      "evasion_rate": 54.79999780654907
+    },
+    "AIDE-Base": {
+      "detection_rate": 44.600000977516174,
+      "evasion_rate": 55.399999022483826
+    },
+    "Dynamic-Direct": {
+      "detection_rate": 75.60000419616699,
+      "evasion_rate": 24.399995803833008
+    },
+    "MI-FGSM-20": {
+      "detection_rate": 46.400001645088196,
+      "evasion_rate": 53.599998354911804
+    }
+  },
+  "feature_squeeze_4bit": {
+    "PGD-20": {
+      "detection_rate": 0.6
+    },
+    "AIDE-Base": {
+      "detection_rate": 0.6
+    },
+    "Dynamic-Direct": {
+      "detection_rate": 5.4
+    },
+    "MI-FGSM-20": {
+      "detection_rate": 0.4
+    }
+  },
+  "feature_squeeze_5bit": {
+    "PGD-20": {
+      "detection_rate": 0.0
+    },
+    "AIDE-Base": {
+      "detection_rate": 0.0
+    },
+    "Dynamic-Direct": {
+      "detection_rate": 0.8
+    },
+    "MI-FGSM-20": {
+      "detection_rate": 0.0
+    }
+  },
+  "feature_squeeze_6bit": {
+    "PGD-20": {
+      "detection_rate": 0.0
+    },
+    "AIDE-Base": {
+      "detection_rate": 0.0
+    },
+    "Dynamic-Direct": {
+      "detection_rate": 0.2
+    },
+    "MI-FGSM-20": {
+      "detection_rate": 0.0
+    }
+  }
+}
