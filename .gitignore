@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data (large, downloaded at runtime)
+data/
+
+# Model checkpoints and results (large binary files)
+results/*.pth
+results/models/*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude
+
+CLAUDE.md
+AIDE_Research_Plan.md
+RESEARCH_PROGRESS.md

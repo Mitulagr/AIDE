@@ -1,0 +1,26 @@
+{
+  "PGD-20": {
+    "white_box_asr": 100.0,
+    "transfer_vgg19": 37.2,
+    "transfer_densenet121": 80.80000000000001,
+    "transfer_mobilenetv2": 59.00000000000001
+  },
+  "MI-FGSM-20": {
+    "white_box_asr": 100.0,
+    "transfer_vgg19": 49.9,
+    "transfer_densenet121": 88.1,
+    "transfer_mobilenetv2": 70.10000000000001
+  },
+  "AIDE-Base": {
+    "white_box_asr": 100.0,
+    "transfer_vgg19": 36.4,
+    "transfer_densenet121": 78.10000000000001,
+    "transfer_mobilenetv2": 56.2
+  },
+  "AIDE-Momentum": {
+    "white_box_asr": 100.0,
+    "transfer_vgg19": 48.4,
+    "transfer_densenet121": 87.6,
+    "transfer_mobilenetv2": 68.30000000000001
+  }
+}

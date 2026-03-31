@@ -1,0 +1,34 @@
+{
+  "config": {
+    "epsilon": 8,
+    "alpha": 2,
+    "steps": 20,
+    "num_images": 1000,
+    "model": "ResNet-50"
+  },
+  "pgd": {
+    "asr": 100.0,
+    "lpips_mean": 0.002319762026920216,
+    "lpips_std": 0.0017794917442883569,
+    "ssim_mean": 0.9541069641113281,
+    "ssim_std": 0.0293689704399264,
+    "num_images": 1000,
+    "num_fooled": 1000
+  },
+  "aide": {
+    "asr": 100.0,
+    "lpips_mean": 0.0021419532977743076,
+    "lpips_std": 0.001697794765469561,
+    "ssim_mean": 0.9566451251506806,
+    "ssim_std": 0.02796290834721554,
+    "num_images": 1000,
+    "num_fooled": 1000
+  },
+  "viability": {
+    "aide_asr_ratio": 100.0,
+    "lpips_improvement_pct": 7.664955589516759,
+    "ssim_improvement_pct": 0.26602478913006744,
+    "viable": true
+  },
+  "runtime_seconds": 630.6354465484619
+}

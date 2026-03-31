@@ -1,0 +1,14 @@
+{
+  "PGD-20": {
+    "saliency_overlap_mean": 0.17615519759058954,
+    "saliency_overlap_std": 0.05521041732664649
+  },
+  "AIDE-Base": {
+    "saliency_overlap_mean": 0.1743690189421177,
+    "saliency_overlap_std": 0.05507087143197067
+  },
+  "AIDE-MultiScale": {
+    "saliency_overlap_mean": 0.1742863013073802,
+    "saliency_overlap_std": 0.05498647280409032
+  }
+}

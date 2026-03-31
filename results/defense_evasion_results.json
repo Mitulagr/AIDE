@@ -1,0 +1,30 @@
+{
+  "PGD-20": {
+    "cam_similarity_mean": 0.7012141196727752,
+    "cam_similarity_std": 0.1267769735867933,
+    "detection_score_mean": 9.526385180473328,
+    "detection_score_std": 1.8881603586699724,
+    "feature_squeeze_detection_rate": 0.0
+  },
+  "AIDE-Base": {
+    "cam_similarity_mean": 0.7086621460914612,
+    "cam_similarity_std": 0.12531560057384505,
+    "detection_score_mean": 9.594940853118896,
+    "detection_score_std": 1.9031956241300059,
+    "feature_squeeze_detection_rate": 0.0
+  },
+  "AIDE-Momentum": {
+    "cam_similarity_mean": 0.7085887240767479,
+    "cam_similarity_std": 0.12063212094136407,
+    "detection_score_mean": 9.63281006526947,
+    "detection_score_std": 1.9638530194767756,
+    "feature_squeeze_detection_rate": 0.0
+  },
+  "Dynamic-Direct": {
+    "cam_similarity_mean": 0.6915157877802849,
+    "cam_similarity_std": 0.1345855566044015,
+    "detection_score_mean": 9.378954897880554,
+    "detection_score_std": 1.9504913890518207,
+    "feature_squeeze_detection_rate": 0.2
+  }
+}
